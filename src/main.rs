@@ -1,4 +1,4 @@
-use actix_service::run;
+use actix_service::startup::run;
 use std::net::TcpListener;
 
 #[tokio::main]
