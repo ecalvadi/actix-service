@@ -17,6 +17,7 @@ name = "actix_service"
 actix-web = "4"
 tokio = { version = "1", features = ["macros", "rt-multi-thread"]}
 serde = { version = "1", features = ["derive"]}
+config = "0.13"
 
 # Using table-like toml syntax to avoid a super-long tline
 [dependencies.sqlx]
